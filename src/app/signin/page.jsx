@@ -45,7 +45,7 @@ const SignIn = () => {
 
             <article className="text-center">
               <span className="text-gray-400 text-sm ">
-                Don't have an account?{" "}
+                {`Don't have an account?`}
                 <Link href={"/signup"}>
                   <strong className="font-semibold text-gray-700">
                     Sign up
