@@ -3,7 +3,7 @@ import Form from "@/components/form/Form";
 import Input from "@/components/input/Input";
 import NavbarSignin from "@/components/navbarSignin/NavbarSignin";
 import Link from "next/link";
-import { useState } from "react";
+import React, { useState } from "react";
 const page = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
