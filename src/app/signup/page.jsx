@@ -3,7 +3,7 @@ import Form from "@/components/form/Form";
 import Navbar from "@/components/navbar/Navbar";
 import NavbarSignin from "@/components/navbarSignin/NavbarSignin";
 
-const page = () => {
+const SignUp = () => {
   return (
     <main className="bg-white">
       <section className="relative  overflow-hidden min-h-screen -z-0 flex flex-col gap-12 pb-4 max-w-7xl mx-auto">
@@ -34,4 +34,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default SignUp;

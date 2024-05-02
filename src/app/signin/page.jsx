@@ -4,7 +4,7 @@ import Input from "@/components/input/Input";
 import NavbarSignin from "@/components/navbarSignin/NavbarSignin";
 import Link from "next/link";
 import React, { useState } from "react";
-const page = () => {
+const SignIn = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("email:", email, "password", password);
@@ -57,7 +57,7 @@ const page = () => {
           <div className="bg-blue-500 w-3/6 lg:bottom-0 absolute top-0 right-0 m-4 rounded-xl opacity-85  -z-10 flex justify-center items-center ">
             <div className="mx-16 hidden lg:inline-block px-12 text-center">
               <h4 className="text-center font-semibold text-3xl p-8 py-6">
-                "Attention is the new currency"
+                Attention is the new currency
               </h4>
               <span className="">
                 The more effortless the writing looks, the more effort the
@@ -87,4 +87,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default SignIn;
